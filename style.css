@@ -1,0 +1,157 @@
+body{
+    font-family: 'Courier New', Courier, monospace ;
+    height: 100vh;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    background-color: #3e4444;
+    color:antiquewhite;
+    /* font-size: 24px; */
+    font-family: Helvetica, Arial, sans-serif;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav span{
+    font-size: 24px;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 18px;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    gap:15px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero{
+    background-color: #82b74b;
+    color: whitesmoke;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.herotxt h4{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+    margin: 18px;
+}
+
+.herotxt p{
+    font-size: 18px;
+    text-align: justify;
+    margin: 18px;
+    /* text-align: justify; */
+
+}
+
+.herotxt button{
+    padding: 3px 5px;
+    margin: 5px auto;
+    /* text-align: center; */
+    background-color: royalblue;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+.info{
+    background-color: #405d27;
+    color: seashell;
+    padding:25px;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: 200;
+    align-items: stretch;
+}
+.card{
+    flex: 1 1 190px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: crimson solid 1px; */
+    padding: 5px;
+    margin:5px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.quote{
+    background-color: #c194ba;
+    color: darkred;
+    padding: 20px;
+
+}
+
+.quote blockquote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.quote span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: serif;
+    display: block;
+    margin-left: 500px;
+    margin-top: 15px;
+
+}
+
+.cta {
+    background-color: #405d27;
+    color: seashell;
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta button{
+    padding: 3px 5px;
+    /* margin: 5px 20px 5px auto; */
+    /* text-align: center; */
+    background-color: royalblue;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #3e4444;
+    color: antiquewhite;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+
+}
